@@ -1,0 +1,5 @@
+# Library Database Proposal
+##  Group Member(s):	Brandon Dave
+##  COMP 250:  Programming II
+Inventory of a Library can be efficiently improved with software.  In the past, Librarians would be required to go aisle-by-aisle to track the inventory of their Library.  In this semester, I hope to implement a digital inventory of a Library that may consist of CDs, Movies, and Books in the format of Physical and Audio Tapes.
+The Librarian shall have the capabilities of tracking the amount of a specific inventory through a simple console.  The Librarian shall have the capabilities to modify items into their inventory which includes adding, removing, and editing existing entries.  The Librarian shall have the capabilities of sorting a specific sub-group of entries through identifiers.  For example, if the Librarian was only searching for historical textbooks, the inventory management will be able to a)  query for a subgroup of Physical Books b)  related to the History Genre c)  sorted by Publishers.
