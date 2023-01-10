@@ -15,13 +15,6 @@ class Numeric {
         System.out.println();
     }
 
-    public static void revisiting() {
-        System.out.println("5" + "5");  		//  What’s the difference between
-        System.out.println( 5 + 5 );         		//  these two lines?
-        System.out.println( (double)5 + (double)5 );  	// how about this?
-        System.out.println( (double)5 + 5 );  		// how about this?
-    }
-
     public static void slide7() {
         int x = 5;
         System.out.println("Pre-Op Example");
@@ -35,9 +28,16 @@ class Numeric {
         System.out.println();
     }
 
+    public static void revisiting() {
+        System.out.println("5" + "5");  		//  What’s the difference between
+        System.out.println( 5 + 5 );         		//  these two lines?
+        System.out.println( (double)5 + (double)5 );  	// how about this?
+        System.out.println( (double)5 + 5 );  		// how about this?
+    }
+
     public static void main(String[] args) {
+        //revisiting();
         //slide4();
         //slide7();
-        //revisiting();
     }
 }
