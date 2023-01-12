@@ -38,23 +38,23 @@ public class PrimeNumbers {
      
      /** The calculator below will test if anyNumber is a Prime Number */
 
-/*  Calculator:
-   if(anyNum % 2, 3, 4, 5,....anyNum == 0){
-        //  what does the remainder mean?
-   }else if(*********){
-        //  For the lab, 2 is a prime number, is this a special case for anyNum? 
-   }else {
-        //  what does the else mean?
-   }
-*/  
+     /*  Calculator:
+          if(anyNum % 2, 3, 4, 5,....anyNum == 0){
+               //  what does the remainder mean?
+          }else if(*********){
+               //  For the lab, 2 is a prime number, is this a special case for anyNum? 
+          }else {
+               //  what does the else mean?
+          }
+     */  
 
 /*  DO NOT MOVE ON TO THIS PART 
 IF THE ABOVE CALCULATOR DOES NOT WORK 
 
 The work does not necessarily go below this line.
 
-The following is just a continuation of the TODO tasks that 
-you need to integrate into the above.
+The following is just a continuation of the TODO 
+tasks that you need to integrate into the above.
 */
           /**  Adjust hard coded/user entered anyNum to go from 2 to Infinity */
           //  anyNum should not be entered through a user’s input OR hard coded any longer
