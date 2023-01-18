@@ -1,0 +1,5 @@
+Roses 1.50 10
+Iris 1.75 13
+Hydrangea 3.50 12.75
+Tulip 1.25 10
+Orchid 1.80 9.50
