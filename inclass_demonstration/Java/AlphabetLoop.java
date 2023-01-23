@@ -20,12 +20,17 @@ class AlphabetLoop {
         int count = 1;
         for (int i = 90; i >= 65; i--) {
             System.out.println("i is " + i + ":\t(char)" + (char) i);
+            if((char)i == 'A' || (char)i == 'E' || (char)i == 'I' ||
+            (char)i == 'O' || (char)i == 'U'){
+                System.out.println("Vowel found!");
+            }
             // Can we format this cleaner:
             // System.out.print("i is " + i + ": (char)" + (char) i + "\t\t");
             // if (count % 4 == 0) {
             //     System.out.println();
             // }
             // count++;
+
         }
         System.out.println();
         
@@ -34,19 +39,24 @@ class AlphabetLoop {
         int count = 1;
         for (int i = 97; i <= 122; i++) {
             System.out.println("i is " + i + ": (char)" + (char) i);
+            if((char)i == 'a' || (char)i == 'e' || (char)i == 'i' ||
+            (char)i == 'o' || (char)i == 'u'){
+                System.out.println("Vowel found!");
+            }
             // Can we format this cleaner:
             // System.out.print("i is " + i + ": (char)" + (char) i + "\t\t");
             // if (count % 4 == 0) {
             //     System.out.println();
             // }
             // count++;
+
         }
         System.out.println("\n");
     }
 
     public static void main(String[] args) {
         /*  LowerCase Letters from a-z*/
-        // printLowerCase();
+        printLowerCase();
         /*  UpperCase Letters from Z-A */
         // printUpperCase();
     }
