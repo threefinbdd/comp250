@@ -51,7 +51,4 @@ class AlphabetLoop {
         // printUpperCase();
     }
     
-    public static void run() {
-       System.out.println("I'm from a different class!"); 
-    }
 }
