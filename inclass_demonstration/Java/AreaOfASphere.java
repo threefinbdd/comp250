@@ -15,5 +15,7 @@ class AreaOfASphere {
         System.out.print("The Area of a Sphere given a radius of " + radius + "is ");
         System.out.print(area);
         // System.out.printf("%.2f", area);
+
+        keyboard.close();
     }    
 }
