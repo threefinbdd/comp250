@@ -1,6 +1,8 @@
 /**
- * Sample code designed to demonstrate program's
- * ability to manipulate code by passing parameters
+ * PassBy.java
+ * 
+ * Sample code designed to demonstrate Java's
+ * ability to manipulate variables by passing parameters
  * by Value and by Reference.
  * 
  * "Pass By Value" allocates (uses by creation) entirely new
@@ -13,7 +15,6 @@ public class PassBy {
 
     public static void passByMemoryAddress(int[] myValue) {
         System.out.println("Inside Method: " + myValue);
-
         myValue[0] = 100;
     }
 
@@ -29,10 +30,10 @@ public class PassBy {
 
         int[] myInitValue2 = new int[1];
         myInitValue2[0] = 25;
-        System.out.println("Before Pass By Value: " + myInitValue2);
+        System.out.println("Memory Address in Use (before): " + myInitValue2);
         System.out.println("Before Pass By Value: " + myInitValue2[0]);
         passByMemoryAddress(myInitValue2);
-        System.err.println("After PassByValue: " + myInitValue2);
+        System.err.println("Memory Address in Use (after): " + myInitValue2);
         System.err.println("After PassByValue: " + myInitValue2[0]);
 
     }
