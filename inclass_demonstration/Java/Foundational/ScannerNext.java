@@ -1,3 +1,4 @@
+package Foundational;
 /*
  * ScannerNext.java
  * 
