@@ -17,6 +17,7 @@ The following topics (categorically sorted) may appear on the midterm:
 - Match a value to the best DataType choice available
 - Perform basic arithmetics
     - Be aware of associativity
+    
 ##  Abstract DataTypes
 - Comparison for Abstract DataTypes
     - String comparison (== vs String library)

@@ -48,8 +48,8 @@ public class MyCustomTicTacToe {
         char[] line = new char[3];
         input.read(line);
         System.out.println(line);
-        //  can we this to one char array with a
-        //  swap function:  
+        //  can we condense this to one char array with a
+        //  swap algorithm:  
         //  line exists as: [0] = *; [1] = ' '; [2] = x; 
         symbols[0] = ' ';
         symbols[1] = line[0];
@@ -77,7 +77,7 @@ public class MyCustomTicTacToe {
      * @param board: a 3x3 board
      * @param currentPlayer: a char representation of the current player's turn
      */
-    public static void playerTurn(char[][] board, char currentPlayer) {
+    public static void playerTurn(char[][] board, char currentPlayer, char[] symbols) {
         Scanner input = new Scanner(System.in);
         boolean isValid = false;
         int choiceRow = -1;
@@ -90,7 +90,7 @@ public class MyCustomTicTacToe {
             choiceRow = input.nextInt();
             System.out.println("Column (1, 2, or 3): ");
             choiceCol = input.nextInt();
-            if (board[choiceRow - 1][choiceCol - 1] == ' ') {
+            if (board[choiceRow - 1][choiceCol - 1] == symbols[0]) {
                 isValid = true; // only able to place on unused slots
             } else {
                 System.out.println("Spot has already been used.  Select a new position.");
@@ -165,7 +165,7 @@ public class MyCustomTicTacToe {
                 currentPlayer = placement[1];
             }
 
-            playerTurn(board, currentPlayer);
+            playerTurn(board, currentPlayer, placement);
             printBoard(board);
             writeBoard(board);
             //  checkBoard(board, placement);
