@@ -6,12 +6,29 @@ package Foundational;
  * comparing arrays.
  */
 public class ArrayExamples {
-    public static void main(String[] args) {
+
+    public static void arrCompare_Numerics() {
+        int[] arrOfNums1 = new int[10];
+        for (int i = 0; i < arrOfNums1.length; i++) {
+        // for (int i : arrOfNums1) {
+            arrOfNums1[i] = i;
+        }
+        System.out.println("Print My Array: ");
+        System.out.println(arrOfNums1);
+
+        System.out.println("Print My Elements:");
+        for(int i:arrOfNums1){
+            System.out.print("[" + i + "] ");
+        }
+        System.out.println();  // new line for cleanliness
+    }
+
+    public static void arrCompare_Words() {
         String wordOne = "dog";
         String wordTwo = "dog";
 
         if (wordOne == wordTwo) { 
-            System.out.println("Both words are the same");
+            System.out.println("Both Strings are the same");
         } else {
             System.out.println("Differences found");
         }
@@ -29,10 +46,17 @@ public class ArrayExamples {
         System.out.println("ONE: " + arrOfCharOne);
         System.err.println("TWO: " + arrOfCharTwo);
         if (arrOfCharOne == arrOfCharTwo) {
-            System.out.println("Both arrs are the same");
+            System.out.println("Both Arrays are the same");
         } else {
             System.out.println("Differences found");
         }
+    }
+
+    public static void main(String[] args) {
+        System.out.println("Character Arrays:");
+        arrCompare_Words();
         
+        System.out.println("Number Arrays:");
+        arrCompare_Numerics();
     }
 }
