@@ -1,5 +1,3 @@
-package ErrorHandling;
-
 /**
  * ErrorExample.java
  * 
@@ -15,47 +13,53 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 public class ErrorExample {
 
-    public static void logicOne(Scanner keyboard) {
+    public static int logicOne(Scanner keyboard) {
         boolean isValid = false;
         int userInput = -1;
-        try {
-            while (!isValid) {
-                System.out.println("Logic One:  Enter in a number between 1-10: ");
+        while (!isValid) {
+            try {
+                System.out.print("Logic One:  Enter in a number between 1-10: ");
                 userInput = keyboard.nextInt();
                 if (userInput >= 1 && userInput <= 10) {
                     isValid = true;
+                    return userInput;
                 }
+            } catch (InputMismatchException e) {
+                System.out.println("Invalid input type. . .");
+            } catch (Exception e) {
+                //  Broader Catch of Error Types
+            } finally {
+                //  if all else fails, end up here
             }
-        } catch (InputMismatchException e) {
-            System.out.println("Invalid input type. . .");
-        } catch (Exception e) {
-            //  Broader Catch of Error Types
-        } finally {
-            //  if all else fails, end up here
         }
+        
+        return -1;
     }  
 
-    public static void logicTwo(Scanner keyboard) {
+    public static int logicTwo(Scanner keyboard) {
         int userInput = -1;
-        try {
-            while (!(userInput >= 1 && userInput <= 10)) {
-                System.out.println("Logic Two:  Enter in a number between 1-10: ");
-                userInput = keyboard.nextInt();            
+        while (!(userInput >= 1 && userInput <= 10)) {
+            try {
+                System.out.print("Logic Two:  Enter in a number between 1-10: ");
+                userInput = keyboard.nextInt();
+            } catch (InputMismatchException e) {
+                System.out.println("Invalid input type. . .");
+            } catch (Exception e) {
+                //  Broader Catch of Error Types
+            } finally {
+                //  if all else fails, end up here
             }
-        } catch (InputMismatchException e) {
-            System.out.println("Invalid input type. . .");
-        } catch (Exception e) {
-            //  Broader Catch of Error Types
-        } finally {
-            //  if all else fails, end up here
         }
+        return userInput;
         
     }
     
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
-        logicOne(keyboard);
-        logicTwo(keyboard);
+        int userOne = logicOne(keyboard);
+        System.out.println("Logic One Entered: " + userOne);
+        int userTwo = logicTwo(keyboard);
+        System.out.println("Logic Two Entered: " + userTwo);
 
         keyboard.close();
     }
