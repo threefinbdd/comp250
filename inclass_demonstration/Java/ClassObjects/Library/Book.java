@@ -1,4 +1,4 @@
-package Library;
+package ClassObjects.Library;
 
 public class Book extends Item {
     /*  Fields that specifically define a Book */

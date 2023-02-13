@@ -13,7 +13,7 @@
  * This example also provides an overview of Design Patterns 
  * with respect to Coupling and Cohesion
  */
-package Library;
+package ClassObjects.Library;
 
 public class Main {
 

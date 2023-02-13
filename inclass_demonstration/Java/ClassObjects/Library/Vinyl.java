@@ -1,4 +1,4 @@
-package Library;
+package ClassObjects.Library;
 
 public class Vinyl extends CompactDisk{
     /*  Fields that define a Vinyl Record */

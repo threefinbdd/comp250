@@ -1,4 +1,4 @@
-package Library;
+package ClassObjects.Library;
 
 public class Item {
     /*  Fields that define a generic Item found at a Library */

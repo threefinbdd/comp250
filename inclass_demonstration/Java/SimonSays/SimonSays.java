@@ -25,6 +25,7 @@ public class SimonSays {
         String play = player.toString();
         if (!comp.equals(play)) {
         // if (comp != play) {
+        // if(computer.toString() != player.toString()){    
             System.out.println("Simon Said:  " + computer.toString());
             System.out.println("The Player responds: " + player.toString());
             return true; // if Strings do not match, Game Over!

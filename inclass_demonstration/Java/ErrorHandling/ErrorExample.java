@@ -1,3 +1,4 @@
+package ErrorHandling;
 
 /**
  * ErrorExample.java

@@ -1,4 +1,4 @@
-package ClassExamples; //  Necessary due to my "Current Working Directory on VSCode is "java"
+package ClassObjects.ClassExamples; //  Necessary due to my "Current Working Directory on VSCode is "java"
 
 public class PublicClassAccess {
 
