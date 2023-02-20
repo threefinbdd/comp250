@@ -1,0 +1,5 @@
+roses	Bouquet x3	30.0
+
+hydrangea	Individual x250	875.0
+
+		 Total: 905.0
