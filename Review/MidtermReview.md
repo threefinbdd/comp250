@@ -26,6 +26,13 @@ The following topics (categorically sorted) may appear on the midterm:
 - Know the limitations of the types of conditional statements
 - Know the basic differences of the types of loop statements
 
+##  Array and ArrayList
+- Know the limitations of Arrays that ArrayLists address
+- Know how basic operations with an Array
+    - Traversal of elements
+    - Indices of elements
+    - Extraction and Manipulation of information at an index
+
 ##  Miscellaneous
 - Be able to read code in order to determine the respective code's output
 
