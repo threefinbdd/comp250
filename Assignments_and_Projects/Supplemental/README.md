@@ -4,12 +4,18 @@ Assignments that may help enforce the learning from COMP250 and drive questions 
 # DataTypes
 
 # Simple Arithmetics
+- TemperatureConverter.java  
 
 # Booleans and Conditionals
+- GradingScale.java  
 
 # Loops
+- Palindrome.java 
 
 # UserInput
+- TemperatureConverter.java
+- GradingScale.java
+- Palindrome.java 
 
 # File Input/Output
 
