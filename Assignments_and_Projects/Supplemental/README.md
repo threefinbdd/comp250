@@ -10,6 +10,7 @@ Assignments that may help enforce the learning from COMP250 and drive questions 
     - GradingScale.java
     - Palindrome.java
     - WorkWeek.java
+    - ListOfNames.java
 
 # Simple Arithmetics
 - TemperatureConverter.java  
@@ -17,6 +18,7 @@ Assignments that may help enforce the learning from COMP250 and drive questions 
 # Booleans and Conditionals
 - GradingScale.java  
 - WorkWeek.java
+- ListOfNames.java
 
 # Loops
 - Palindrome.java 
