@@ -20,3 +20,4 @@ Assignments that may help enforce the learning from COMP250 and drive questions 
 # File Input/Output
 
 # Arrays and Lists
+- Palindrome.java:  an alternative approach could view this assignment with lists
