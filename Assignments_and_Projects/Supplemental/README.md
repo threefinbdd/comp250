@@ -32,3 +32,4 @@ Assignments that may help enforce the learning from COMP250 and drive questions 
 - Palindrome.java:  an alternative approach could view this assignment with lists
 - WorkWeek.java:  1-Dimensional Array Example
 - DiagonalSums.java:  2-Dimensional Array Example
+- ListOfNames.java
