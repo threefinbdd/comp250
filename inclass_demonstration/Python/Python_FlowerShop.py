@@ -51,6 +51,7 @@ def main():
             # 7.  Conditional:  Suggest a Bouquet based on Quantity * Individual Cost
             subTotal = userCount * individual
             countOfBouquet = math.floor(subTotal/bouquet)
+            formatting = "Individual"  
             if((subTotal) > bouquet):
                 userConfirm = input("Would you like purchase bouquets instead? ")
                 if((userConfirm.strip()).lower() == 'y'):
@@ -60,7 +61,6 @@ def main():
                     
                 else:
                     count = userCount
-                    formatting = "Individual"
             
             # 8.  Write the below format to Receipt Output File:
             #     "[FlowerType] [Individual or Bouquet] x[Quantity] [TotalCost]"
