@@ -9,12 +9,12 @@ public class DiagonalSums {
          * Allow the user to choose:
          *  left-diagonal:  calculates sum from the upper left-to-bottom right
          *  right-diagonal: calculates sum from the upper right-to-bottom left
-         *  top
+         *  top: upper horizontal row
+         *  bottom: lower horizontol row
          *  middle-horizontal
-         *  left
-         *  right
+         *  left:  first column (vertical)
+         *  right:  last column (vertical)
          *  middle-vertical
-         *  bottom
          *  
          * 
          * The program will calculate the sum of values given the user's direction.
