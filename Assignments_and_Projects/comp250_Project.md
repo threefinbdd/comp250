@@ -65,7 +65,7 @@ Quality is subjectively judged.  Merely turning in a file will not receive a ful
 | Category                                                                                                                     | Grading     |
 |------------------------------------------------------------------------------------------------------------------------------|-------------|
 | Define the "5"W's of the peer's presentation                                                                                   | 25%         |
-| Discuss the Pros and Cons of the presented implementation                                                                    | 50%         |
+| Discuss the Pros and Cons of the presented implementation                                                                    | 25%         |
 | Detail differences in implementation you would propose and why these changes should be considered                            | 50%         |
 
 You are to write three (3) peer reviews of your fellow colleagues final presentation.  Each peer review should be:  
