@@ -56,6 +56,13 @@ Quality is subjectively judged.  Merely turning in a file will not receive a ful
 | **Total:**                                                                                                                   | 100%        |
 | **Bonus Credit:**  Implementation of additional features that provides uniqueness to your project.                           | 5%          |
 
+##  Peer Review Rubric:
+Quality is subjectively judged.  Merely turning in a file will not receive a full score.  Some items have a cascading effect with respect to grading.
+| Category                                                                                                                     | Grading     |
+|------------------------------------------------------------------------------------------------------------------------------|-------------|
+| Define the 5W's of the peer's presentation                                                                                   | 25%         |
+| Discuss the Pros and Cons of the presented implementation                                                                    | 50%         |
+| Detail differences in implementation you would propose and why these changes should be considered                            | 50%         |
 
 Disclaimer of Bonus Credit:
 Bonus Credits are awarded in recognition of good work, in addition to the max possible points.  As a reminder, quality is subjectively judged.  Merely turning in a file will not receive a full score. Bonus points are used not in "curving" but in possibly pushing an individual student's grade up.
