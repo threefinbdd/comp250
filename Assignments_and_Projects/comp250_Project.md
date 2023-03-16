@@ -56,13 +56,30 @@ Quality is subjectively judged.  Merely turning in a file will not receive a ful
 | **Total:**                                                                                                                   | 100%        |
 | **Bonus Credit:**  Implementation of additional features that provides uniqueness to your project.                           | 5%          |
 
+
+Disclaimer of Bonus Credit:
+Bonus Credits are awarded in recognition of good work, in addition to the max possible points.  As a reminder, quality is subjectively judged.  Merely turning in a file will not receive a full score. Bonus points are used not in "curving" but in possibly pushing an individual student's grade up.
+
 ##  Peer Review Rubric:
 Quality is subjectively judged.  Merely turning in a file will not receive a full score.  Some items have a cascading effect with respect to grading.
 | Category                                                                                                                     | Grading     |
 |------------------------------------------------------------------------------------------------------------------------------|-------------|
-| Define the 5W's of the peer's presentation                                                                                   | 25%         |
+| Define the "5"W's of the peer's presentation                                                                                   | 25%         |
 | Discuss the Pros and Cons of the presented implementation                                                                    | 50%         |
 | Detail differences in implementation you would propose and why these changes should be considered                            | 50%         |
 
-Disclaimer of Bonus Credit:
-Bonus Credits are awarded in recognition of good work, in addition to the max possible points.  As a reminder, quality is subjectively judged.  Merely turning in a file will not receive a full score. Bonus points are used not in "curving" but in possibly pushing an individual student's grade up.
+You are to write three (3) peer reviews of your fellow colleagues final presentation.  Each peer review should be:
+- if well written, following the saying "good writing is good writing", half a page
+- otherwise, limited to 1-page
+
+Detail the following:
+- who are the interested parties that would use the project
+- what is the project implementation's focus
+- when would you use the project implementation
+- why is the project implementation interesting
+
+Discuss what the student did well with respect to their presentation form and their project implementation
+Discuss where the student could improve with respect to their presentation form and their project implementation
+
+Detail what changes you would do differently if given the same project implementation idea
+- If argued strongly, you are welcome to include why you would not change their process differently
