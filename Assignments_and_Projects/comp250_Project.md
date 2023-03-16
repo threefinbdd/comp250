@@ -68,18 +68,18 @@ Quality is subjectively judged.  Merely turning in a file will not receive a ful
 | Discuss the Pros and Cons of the presented implementation                                                                    | 50%         |
 | Detail differences in implementation you would propose and why these changes should be considered                            | 50%         |
 
-You are to write three (3) peer reviews of your fellow colleagues final presentation.  Each peer review should be:
-- if well written, following the saying "good writing is good writing", half a page
-- otherwise, limited to 1-page
+You are to write three (3) peer reviews of your fellow colleagues final presentation.  Each peer review should be:  
+- if well written, following the saying "good writing is good writing", half a page  
+- otherwise, limited to 1-page  
 
-Detail the following:
-- who are the interested parties that would use the project
-- what is the project implementation's focus
-- when would you use the project implementation
-- why is the project implementation interesting
+Detail the following:  
+- who are the interested parties that would use the project  
+- what is the project implementation's focus  
+- when would you use the project implementation  
+- why is the project implementation interesting  
 
-Discuss what the student did well with respect to their presentation form and their project implementation
-Discuss where the student could improve with respect to their presentation form and their project implementation
+Discuss what the student did well with respect to their presentation form and their project implementation  
+Discuss where the student could improve with respect to their presentation form and their project implementation  
 
-Detail what changes you would do differently if given the same project implementation idea
-- If argued strongly, you are welcome to include why you would not change their process differently
+Detail what changes you would do differently if given the same project implementation idea  
+- If argued strongly, you are welcome to include why you would not change their process differently  
