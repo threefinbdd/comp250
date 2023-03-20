@@ -4,8 +4,7 @@
  */
 import java.util.ArrayList;
 
-public class Student {
-    // public class Student implements Comparable<Student> {
+public class Student_Comparable implements Comparable<Student_Comparable> {
     /* Attributes that define a Student */
     private String name; // only accessible within Student.java
     protected char letterGrade; // only accessible within Project (this folder)
@@ -16,7 +15,7 @@ public class Student {
 
     /* Polymorphism with constructors */
     /* Default Constructor */
-    Student() {
+    Student_Comparable() {
         this.name = "";
         this.letterGrade = 'F';
         this.major = new ArrayList<String>();
@@ -27,7 +26,8 @@ public class Student {
     }
 
     /* Overload Constructor */
-    Student(String name, char letterGrade, ArrayList<String> major, String yearOfStudy, boolean isOnAcademicProbation,
+    Student_Comparable(String name, char letterGrade, ArrayList<String> major, String yearOfStudy,
+            boolean isOnAcademicProbation,
             boolean isDoubleMajor) {
         this.name = name;
         this.letterGrade = letterGrade;
@@ -42,7 +42,7 @@ public class Student {
     }
 
     /* Overload Constructor #2 */
-    Student(String name, char letterGrade) {
+    Student_Comparable(String name, char letterGrade) {
         this.name = name;
         this.letterGrade = letterGrade;
         this.isDoubleMajor = false;
@@ -53,7 +53,7 @@ public class Student {
     }
 
     /* Overload Constructor for Majors */
-    Student(String name, char letterGrade, String major, String yearOfStudy, boolean isOnAcademicProbation,
+    Student_Comparable(String name, char letterGrade, String major, String yearOfStudy, boolean isOnAcademicProbation,
             boolean isDoubleMajor) {
         this.name = name;
         this.letterGrade = letterGrade;
@@ -91,4 +91,19 @@ public class Student {
     public void printStudent() {
         System.out.println(this.name + " has a letter grade of " + this.letterGrade);
     }
+
+    @Override
+    public int compareTo(Student_Comparable o) {
+        // return statements can be inversed for reverse-sorting
+        if (this.letterGrade > o.letterGrade) {
+            return 1;
+            // return -1;
+        } else if (this.letterGrade < o.letterGrade) {
+            return -1;
+            // return 1;
+        } else {
+            return 0;
+        }
+    }
+
 }

@@ -44,7 +44,7 @@
  * 
  * Utilize a Comparator from the Comparable Class to sort the Arraylist from another field.
  * 
- * Print out the newly sorted ARrayList
+ * Print out the newly sorted ArrayList
  */
 public class SortMyObject {
     
